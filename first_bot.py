@@ -11,3 +11,4 @@ chat_id = message['from']['id']
 text_message = message['text']
 # print(text_message)
 send_message = requests.get(API_link + f'/sendMessage?chat_id={chat_id}&text=hi too you print -> {text_message}')  #Отправляем сообщение от бота
+print(chat_id)
